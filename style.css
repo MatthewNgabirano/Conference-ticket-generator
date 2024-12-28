@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+:root{
+--Neutral-0: hsl(0, 0%, 100%);
+--Neutral-300: hsl(252, 6%, 83%);
+--Neutral-500: hsl(245, 15%, 58%);
+--Neutral-700: hsl(245, 19%, 35%);
+--Neutral-900:hsl(248, 70%, 10%)
+
+
+- Orange 500: hsl(7, 88%, 67%)
+- Orange 700: hsl(7, 71%, 60%)
+
+font-family: "Inconsolata", serif;
+}
+
+
+
+
+body{
+    margin: auto;
+    padding: 0;
+    font-family: "Inconsolata", serif;
+justify-content: center;
+align-items: center;
+background-color:hsl(248, 70%, 10%) ;
+background-image: url(./assets/images/pattern-lines.svg);
+
+}
+
+.circle-img{
+    display: flex;
+    padding: 1rem;
+    margin-top:-5em;
+    margin-left: -2rem;
+    font-size: 2rem;
+    width: 4em;
+
+}
+.circle-img-P{
+    display: grid;
+    padding: 1rem;
+    margin-top:-5.5em;
+    
+    font-size: 2rem;
+    width: 4em;
+}
+.container{
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: -1em;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.content{
+    margin:-5em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+padding: 1rem;
+
+}
+.change{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--Neutral-0);
+    
+}
+
+.remover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--Neutral-0);
+}
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--Neutral-900);
+    border-radius: 10px;
+    box-shadow: 0 0 10px  rgb(0 0 0 / 20%);
+    border: 2px dotted var(--Neutral-500);
+    width: 350px;
+    height: 130px;
+    position: relative;
+    
+}
+.box-container:hover{
+    background-color: var(--Neutral-700);
+    cursor: pointer;
+}
+.flex-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    margin-top: -4em;
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    margin: 1rem 1rem;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--Neutral-0);
+    text-align: center;
+    margin-top: auto;
+margin-bottom: auto;
+}
+
+.Text-title{
+    margin: 1rem;
+    padding: 1rem ;
+    font-size: 10rem;
+    font-weight: 700;
+    color: var(--Neutral-0);
+    text-align: center;
+    font-size: 2em;
+}
+
+.Text-subtitle{
+    text-align: center;
+    font-weight: 500;
+    color: var(--Neutral-500);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.uploader{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin-right: 17em;
+    color: var(--Neutral-0);
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.icon-upload{
+    width: 50px;
+    height: 45px;
+    margin:1rem auto;
+background-color: var(--Neutral-500);
+color:var(--Neutral-0);
+border-radius: 10px;
+padding: 0.2em;
+}
+
+.product-upload{
+    padding: 0.1rem;
+    
+display:grid ;
+justify-content: center;
+text-align: center;
+text-indent: 2px;
+color: var(--Neutral-0);
+}
+.upload {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin-right:3rem;
+    font-size: 0.7884em;
+    color:var(--Neutral-0);
+}
+.upload-text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Neutral-900);
+    padding: 1rem;
+    margin: auto ;
+}
+
+.flex{
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--Neutral-0);
+    padding: 1rem;
+}
+.a{
+    font-size: 1.5rem;
+    margin: -0.8em;
+    color: hsl(7, 88%, 67%);
+}
+input{
+padding: 0.5rem;
+margin: 0.5rem;
+border-radius: 5px;
+border: 1px solid var(--Neutral-500);
+}
+input:hover{
+    background-color: var(--Neutral-700);
+    color: var(--Neutral-0);
+    cursor: pointer;
+}
+.input{
+    width: 22em;
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: var(--Neutral-700);
+    border: 2px  solid var(--Neutral-500);
+    color: var(--Neutral-0);
+}
+
+
+.button{
+    width: 22em;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid var(--Neutral-500);
+    background-color:  hsl(7, 88%, 67%);
+    color: var(--Neutral-900);
+    font-weight: 700;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(7, 71%, 60%);
+    text-decoration: dashed;
+    color: var(--Neutral-900);
+}
+.subtitle{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--Neutral-0);
+    padding: 1.08rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.flex-card{
+gap: 1rem;
+ padding: 1rem;
+    margin:6em auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.months{
+    gap: 1rem;
+    text-align: center;
+    color: var(--Neutral-0);
+    margin:-6em;
+    margin-right: -2em;
+    gap: 1rem;
+    font-size: 0.7em;
+}
+.header-text{
+    padding: 1rem;
+    margin:auto -0.6em ;
+}
+.send-product{
+    display: grid;
+    gap: 1rem;
+    font-size: 1.2rem;
+    flex-direction: column;
+    padding: 1rem;
+    margin: auto;
+    color: var(--Neutral-0);
+    text-indent: 3px;
+    text-align: center;
+
+}
+
+.squiggly-up{
+    width: 9em;
+    height: 10em;
+    margin-left: auto;
+    ;
+}
+
+.pattern-tickets{
+    width: 23em;
+    height: 10em;
+    margin: auto;
+    
+}
+.avatar{
+    width: 3em;
+    height: 3em;
+    margin-top:-4em;
+    margin-left: 2em;
+    border: 1px solid var(--Neutral-500);
+    border-radius: 10px;
+}
+
+
+.logo-bottom{
+    width: 3em;
+    height: 3em;
+    font-size: 0.4em;
+margin: 1rem 1rem;
+}
+
+
+.header-text{
+    padding: 1rem;
+display: flex;
+font-size: 1.5rem;
+}
+
+.flex-group-p{
+    padding: 0.5em ;
+display: flex;
+align-items: center;
+justify-content:center;
+margin: -5em ;
+margin-right: -1em;
+
+}
+
+.bottom-image{
+    display: flex;
+    padding: 1rem;
+    margin:3em;
+
+}
+
+.squiggly-down{
+    margin-top: -25em;
+    width: 24em;
+    height: 20em;
+margin-right: auto;
+
+}
+
+.flex-card-group{
+    width: 9em;
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    margin:7rem auto;
+    align-items: center;
+    justify-content: center;
+    color: var(--Neutral-0);
+}
+.icon-github{
+    width: 2.5em;
+    height: 3em;
+    margin: -1.5rem -1.5rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7em;
+
+}
+.name-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--Neutral-0);
+    padding: 0.2rem;
+    margin:-1em;
+    margin-right: 1em;
+}
+.name-win{
+    color: rgba(194, 55, 1, 0.678);
+    font-size: 1em;
+}
+.Title{
+    color: var(--Neutral-500);
+    font-size: 0.4em;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-right: 1rem;
+
+
+}
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+}
+
+body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+}
+
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }

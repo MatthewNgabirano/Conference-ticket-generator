@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Conference ticket generator</title>
+</head>
+<body>
+  <main class="container">
+  <div class="top-image">
+<img src="./assets/images/pattern-squiggly-line-top.svg" alt="image" class="squiggly-up">
+<img src="./assets/images/pattern-circle.svg" alt="circle" class="circle-img">
+  </div>
+<header class="title">
+  <div class="flex-group"><img src="./assets/images/logo-mark.svg" alt="image" class="logo">
+    <span class="header">Coding Conf</span></div>
+</header>
+<article class="content">
+  
+  <h1 class="Text-title">Your Journey to Coding Conf 2025 Starts Here!</h1>
+  <p class="Text-subtitle">Secure your spot at next year's biggest coding conference.</p>
+<span class="uploader">Upload Avatar</span>
+<div class="box-container" id="box-container">
+<form class="box">
+
+  <img src="./assets/images/icon-upload.svg" alt="image-icon" class="icon-upload">
+  <input type="file" id="fileInput" accept="image/*" style="display: none; color:var(--neutral-0)">
+  <div class="controls" style="display: none;"  id="controls">
+<button id="change-Button" class="change" >Change</button>
+<button id="change-Button" class="remove">Remove</button>
+  </div>
+  <div>
+    <span class="product-upload" id="placeholderText">Drag and drop or click to uplaod</span>
+  </div>
+  
+
+</div>
+</form>
+<span class="upload">
+<img src="./assets/images/icon-info.svg" alt="img-info" class="icon-infor">
+Upload your photo (JPG or PNG, max size:500KB)
+</span>
+
+<div class="flex">
+  <form class="form">
+    <p class="name">Full Name</p>
+    <input type="email" placeholder="." class="input"> 
+  </form>
+
+  <form>
+    <p class="name">Email Address</p>
+    <input type="email" placeholder="example@email.com" class="input">
+  </form>
+  <img src="./assets/images/pattern-circle.svg" alt="circle" class="circle-img-P">
+  <form>
+    <p class="name"> GitHub Username</p>
+    <input type="email" placeholder="@yourusername" class="input">
+  </form>
+</div>
+
+<button class="button">Generate My Ticket</button>
+
+<h1 class="subtitle">Congrats,<p class="name-win">Matthew Sheldon!</p> Your ticket is ready.</h1> 
+<div class="send-product"> We've emailed your ticket to <a class="a">matthewngabirano2020@gmail.com</a> and will send updates in the run up to the event.</div>
+
+<div class="flex-card">
+  <p class="months">Jan 31, 2025 / Austin, TX</p>
+  <img src="./assets/images/pattern-ticket.svg" alt="img-pattern" class="pattern-tickets">
+
+  <img src="./assets/images/image-avatar.jpg" alt="image-avatar" class="avatar">
+  
+  <div class="title">
+    <div class="flex-group-p">
+      <img src="./assets/images/logo-mark.svg" alt="image" class="logo-bottom">
+      <span class="header-text">Coding Conf</span></div>
+      <div class="flex-card-group">
+        <span class="name-title">Jonatan Krisof</span>
+      <span class="Title"><img src="./assets/images/icon-github.svg" alt=""class="icon-github">@jonatankristof0101</span>
+      </div>
+  </div>
+
+</div>
+
+
+</article> 
+
+<div class="bottom-image">
+<img src="./assets/images/pattern-squiggly-line-bottom.svg" alt="image" class="squiggly-down">
+</div>
+</main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Matthew Sheldon</a>.
+  </div>
+</body>
+</html>
